@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper1"
+    tools:context=".mess_post">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/house_icon"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Title"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="25dp"/>
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_box"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="For male/female etc"
+                android:inputType="textEmailAddress"
+                android:textColor="#FFFFFF"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColorHint="#FFFFFF"
+
+                android:textSize="20dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mess Rent"
+                android:textColor="#ffff"
+                android:textStyle="bold"
+                android:textSize="25dp"/>
+
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:background="@drawable/edit_box"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:textSize="20dp"
+                android:hint="10000/20000 etc"
+                android:textColorHint="#FFFFFF"
+                android:textColor="#FFFFFF"
+                android:maxLines="1"
+
+
+                android:layout_marginTop="10dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="From Month"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="25dp"/>
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:background="@drawable/edit_box"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:textSize="20dp"
+                android:hint="January/February etc."
+                android:textColorHint="#FFFFFF"
+                android:textColor="#FFFFFF"
+                android:maxLines="1"
+
+                android:layout_marginTop="10dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Phone Number"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="25dp"/>
+
+            <EditText
+
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:background="@drawable/edit_box"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:textSize="20dp"
+                android:hint="017XXXXXXXX"
+                android:textColorHint="#FFFFFF"
+                android:textColor="#FFFFFF"
+                android:maxLines="1"
+
+                android:layout_marginTop="10dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Location"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="25dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:background="@drawable/edit_box"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:textSize="20dp"
+                android:hint="Dhaka/Chittagong etc."
+                android:textColorHint="#FFFFFF"
+                android:textColor="#FFFFFF"
+                android:maxLines="1"
+
+                android:layout_marginTop="10dp"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Description"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="25dp"/>
+
+            <EditText
+
+                android:layout_height="60dp"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:background="@drawable/edit_box"
+                android:drawablePadding="12dp"
+                android:padding="8dp"
+                android:textSize="20dp"
+                android:hint=""
+                android:textColorHint="#FFFFFF"
+                android:textColor="#FFFFFF"
+                android:maxLines="1"
+
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent" />
+
+
+            <Button
+
+                android:id="@+id/home_postButtonId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Post"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textAllCaps="false"
+                android:padding="16dp"
+                android:clickable="true"
+                android:layout_marginTop="24dp"
+
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/buttonshape"
+                android:shadowColor="#A8A8A8"
+                android:shadowDx="0"
+                android:shadowDy="0"
+                android:shadowRadius="5"
+                />
+
+            />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

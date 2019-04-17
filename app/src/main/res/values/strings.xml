@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Tolet_Board</string>
+
+    <string name="option1">Home</string>
+    <string name="option2">Hostel</string>
+    <string name="option3">Shop</string>
+    <string name="option4">Office</string>
+
+    <string-array name="months">
+
+
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+</resources>

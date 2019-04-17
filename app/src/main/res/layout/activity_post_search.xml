@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/wallpaper1"
+
+    tools:context=".post_search">
+
+
+    <Button
+        android:id="@+id/postButtonid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Post"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:padding="16dp"
+        android:clickable="true"
+        android:layout_marginTop="16dp"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+    <Button
+        android:id="@+id/searchButtonid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Search"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:padding="16dp"
+        android:clickable="true"
+        android:layout_marginTop="16dp"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        />
+
+
+</LinearLayout>

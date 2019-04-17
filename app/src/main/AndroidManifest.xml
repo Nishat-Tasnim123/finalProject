@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tolet_board">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".view_post_office"></activity>
+        <activity android:name=".show_description_office" />
+        <activity android:name=".view_my_posts" />
+        <activity android:name=".show_description_hostel" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".view_post_hostel" />
+        <activity android:name=".hostel_post" />
+        <activity android:name=".search_options" />
+        <activity android:name=".show_description" />
+        <activity android:name=".office_post" />
+        <activity android:name=".shop_post" />
+        <activity android:name=".mess_post" />
+        <activity android:name=".Main_Page">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".sample" />
+        <activity android:name=".view_posts" />
+        <activity android:name=".home_post" />
+        <activity android:name=".signUp" />
+        <activity android:name=".options" />
+        <activity android:name=".post_search" />
+        <activity android:name=".register" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
